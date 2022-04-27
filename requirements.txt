@@ -1,0 +1,4 @@
+boto3>=1.18.25
+botocore>=1.21.25
+tenacity==8.0.1
+click==8.0.3

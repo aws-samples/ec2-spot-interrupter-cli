@@ -1,0 +1,1 @@
+pip3 uninstall ec2-spot-interrupter-cli
