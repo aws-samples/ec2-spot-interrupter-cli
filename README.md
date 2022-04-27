@@ -23,10 +23,10 @@ export AWS_ACCESS_KEY_ID="..."
 export AWS_SECRET_ACCESS_KEY="..."
 ```
 
-You can set the AWS_REGION environment variable if you don't want to pass in `--region` on each run.
+Set the AWS_REGION environment variable if it's not configured.
 
 ```bash
-export AWS_REGION="us-east-1"
+export AWS_REGION="..."
 ```
 
 ## Examples
@@ -40,7 +40,7 @@ esi interrupt --duration-before-interruption 2 --count 10 --tag-key fis --tag-va
 ## Uninstall
 
 * Use your favorite terminal, change current directory to the downloaded repository folder.
-* Run the install script:
+* Run the uninstall script:
 
 ```bash
 sudo bash uninstall.sh
