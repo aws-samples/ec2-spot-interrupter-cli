@@ -53,12 +53,14 @@ esi interrupt --duration-before-interruption 2 --count 10 --tag-key fis --tag-va
 
 ## Uninstall
 
-* Use your favorite terminal, change current directory to the downloaded repository folder.
+* Using a terminal, change current directory to the downloaded repository folder.
 * Run the uninstall script:
 
 ```bash
 sudo bash uninstall.sh
 ```
+
+* Delete the repository folder.
 
 ## Security
 
