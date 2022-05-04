@@ -58,16 +58,16 @@ esi interrupt --duration-before-interruption 2 --count 10 --tag-key fis --tag-va
 
 ## Uninstall
 
-* Using a terminal, change current directory to the downloaded repository folder.
-* Run the uninstall script:
+1. Using a terminal, change current directory to the downloaded repository folder.
+2. Run the uninstall script:
 
 ```bash
 sudo bash uninstall.sh
 ```
 
-* Delete the repository folder.
+3. Delete the repository folder.
 
-* You may have to manually remove the installation files if it persist.
+Tip: You may have to manually remove the installation files if it persist.
 
 ```bash
 sudo rm -rf /usr/local/bin/esi
