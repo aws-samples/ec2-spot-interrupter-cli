@@ -6,14 +6,14 @@ Since October 2021, You can trigger the interruption of an Amazon EC2 Spot Insta
 
 ## Install (macOS, Linux)
 
-* Use [AWS CloudShell](https://aws.amazon.com/cloudshell/) or your favorite terminal, clone this repository.
+1. Use [AWS CloudShell](https://aws.amazon.com/cloudshell/) or your favorite terminal, clone this repository.
 
 ```bash
 git clone https://github.com/aws-samples/ec2-spot-interrupter-cli.git
 ```
 
-* Change current directory to the downloaded repository folder.
-* Run the install script:
+2. Change current directory to the downloaded repository folder.
+3. Run the install script:
 
 ```bash
 sudo bash install.sh
