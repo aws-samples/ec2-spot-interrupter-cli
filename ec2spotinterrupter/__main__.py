@@ -8,7 +8,6 @@ import os
 import click
 import logging
 from .config import *
-from .configure_command import *
 from .interrupt_command import *
 from .version_command import *
 
@@ -44,7 +43,6 @@ def version():
 
 
 main.add_command(interrupt)
-main.add_command(configure)
 main.add_command(version)
 
 if __name__ == '__main__':
