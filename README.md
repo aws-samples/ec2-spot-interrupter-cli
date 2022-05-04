@@ -6,7 +6,12 @@ Since October 2021, You can trigger the interruption of an Amazon EC2 Spot Insta
 
 ## Install (macOS, Linux)
 
-* Use your favorite terminal, clone this repository.
+* Use [AWS CloudShell](https://aws.amazon.com/cloudshell/) or your favorite terminal, clone this repository.
+
+```bash
+git clone https://github.com/aws-samples/ec2-spot-interrupter-cli.git
+```
+
 * Change current directory to the downloaded repository folder.
 * Run the install script:
 
@@ -37,9 +42,9 @@ esi interrupt
 
 -tk, --tag-key | Filter instances tag key  [required]  
 -tv, --tag-value | Filter instances tag value  [required]  
-[-dbi, --duration-before-interruption] | Number of minutes represents the duration after which the Spot instances are interrupted, must be between 2 and 15.  
-[-c, --count] | Number of instances to interrupt, between 1 and 1000.  
-[--confirm] | Boolean to auto confirm interruption.  
+[-dbi, --duration-before-interruption] | Number of minutes represents the duration after which the Spot instances are interrupted, must be between 2 and 15. Default is 2.  
+[-c, --count] | Number of instances to interrupt, between 1 and 1000. Default is 1.  
+[--confirm] | Flag to auto confirm interruption.  
 [-ir, --iam-role] | ARN of IAM role for FIS.  
 [--help] | Show help message.
 
