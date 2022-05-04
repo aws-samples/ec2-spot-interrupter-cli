@@ -62,6 +62,12 @@ sudo bash uninstall.sh
 
 * Delete the repository folder.
 
+* You may have to manually remove the installation files if it persist.
+
+```bash
+sudo rm -rf /usr/local/bin/esi
+```
+
 ## Security
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
